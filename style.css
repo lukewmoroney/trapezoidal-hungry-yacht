@@ -24,8 +24,8 @@ body {
 /* font used for dropdown menu - edit this*/
 h2 {
   font-family: "lora", serif;
-  color: orange;
-  text-shadow: 1px 1px blue;
+  color: white;
+  text-shadow: 2px 2px black;
   font-size: 30px;
   font-style: bold;
   margin-top: 0;
@@ -42,7 +42,8 @@ h3 {
 
 /* font used for title of haiku - edit this */
 h4 {
-  font-family: "Zen Dots", cursive;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow: 1px 1px black;
   font-size: 22px;
   font-style: bold;
   text-align: center;
@@ -51,6 +52,7 @@ h4 {
 /* font used for byline in header - edit this */
 h5 {
   font-size: 15px;
+  text-shadow: 1px 1px black;
   color: white;
   text-align: 20px right;
 }
@@ -65,6 +67,7 @@ h5 {
   background-repeat: no-repeat;
   text-align: center;
   font-family: "PT Serif", serif;
+  text-shadow: 2px 2px black;
   font-size: 1.5em;
 }
 
@@ -128,24 +131,30 @@ h5 {
   font-size: 28px;
   font-family: "Kalam", cursive;
 }
-
 /* Style the card for the haiku function */
 .cardHaiku {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 20px;
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-color: white;
+  background-image: url("https://cdn.glitch.global/3fe7e08f-6633-477c-aff9-0e2c216fe182/arnaud-mesureur-7EqQ1s3wIAI-unsplash.jpg?v=1746524846951");
+  background-position: center;
+  background-size: cover;
   color: white;
-  font-family: "PT Serif", serif; /* font for <p> text */
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif; /* font for <p> text */
   font-size: 14px;
+  text-shadow: 1px 1px black;
   text-align: center;
 }
 
 /* Style the card for the search results */
 .cardSearch {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  font: "Arial", Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 2em;
   padding: 10px;
   margin: 0;
   min-height: 375px;
@@ -173,7 +182,7 @@ h5 {
   border-radius: 8px;
   color: #000000;
   background-color: white;
-  font-family: "PT Serif", serif;
+  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   margin: 15px;
 }
